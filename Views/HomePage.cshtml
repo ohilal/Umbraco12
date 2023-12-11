@@ -1,0 +1,522 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<ContentModels.HomePage>
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+	Layout = "Master.cshtml";
+}
+
+ 
+
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero">
+
+    <!-- <div class="info d-flex align-items-center">
+    <div class="container">
+        
+       <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h2 data-aos="fade-down">Welcome to <span>UpConstruction</span></h2>
+            <p data-aos="fade-up">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a data-aos="fade-up" data-aos-delay="200" href="#get-started" class="btn-get-started">Get Started</a>
+          </div>
+        </div> 
+      
+      </div>
+    </div> -->
+  <!-- <ol class="carousel-indicators">
+        <li data-target="#hero-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#hero-carousel" data-slide-to="1"></li>
+        <li data-target="#hero-carousel" data-slide-to="2"></li>
+        <li data-target="#hero-carousel" data-slide-to="3"></li>
+      </ol> -->
+    <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+    
+      <div class="carousel-item active" style="background-image: url(assets/img/hero-carousel/indust_licenses.jpg)">
+        <div class="info d-flex align-items-center">
+          <div class="container">  
+            <div class="row justify-content-center">
+              <div class="col-lg-6 text-center">
+                <h2  data-aos="zoom-in">التراخيص الصناعية</h2>
+                <p data-aos="fade-up">منح التراخيص للمنشآت الصناعية (اخطار / مسبق) خلال 20 يوم عمل
+                  <span><a href="about.html" data-aos-delay="200" class="btn btn-sm btn-info float-left" >التقديم للخدمة</a></span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--<div class="carousel-item" style="background-image: url(assets/img/hero-carousel/u189.jpg)"></div> -->
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/shutterstock_15-01.jpg)">
+        <div class="info d-flex align-items-center">
+          <div class="container">  
+            <div class="row justify-content-center">
+              <div class="col-lg-6 text-center">
+                <h2  data-aos="zoom-in">فروع <span>الهيئة</span></h2>
+                <p data-aos="fade-up" dir="rtl">28 فرع ومكتب اقليمي للهيئة موزعة على مستوى الجمهورية لتقديم الخدمات للمستثمرين
+                <a data-aos="fade-up"  href="#get-started" data-aos-delay="200" class="btn btn-sm btn-info float-left">المزيد..</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/Alex.jpg)">
+        <div class="info d-flex align-items-center">
+          <div class="container"> 
+            <div class="row justify-content-center">
+              <div class="col-lg-6 text-center">
+                <h2  data-aos="zoom-in">مشروع <span>المجمعات الصناعية</span></h2>
+                <p data-aos="fade-up">المبادرة الرئاسـية لتشغيل الشباب .. مـشروع إقامة 17 مجمـع صناعـي للمشروعات الصغيرة والمتوسطة بـ 15 محافظة
+                  "ابدء حلمك واحنا معاك"
+                <a data-aos="fade-up"  href="#get-started" data-aos-delay="200" class="btn btn-sm btn-info float-left">ابدأ الآن</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url(assets/img/hero-carousel/Robbiki.jpg)">
+        <div class="info d-flex align-items-center">
+          <div class="container"> 
+            <div class="row justify-content-center">
+              <div class="col-lg-6 text-center">
+                <h2  data-aos="zoom-in">المدن <span> الصناعية المتخصصة</span></h2>
+                <p data-aos="fade-up">مشروع مدينة الجلود بالروبيكي - مدينة الجلالة للرخام والجرانيت بالسويس - مدينة الاثاث بدمياط - مدينة الدواء بالسادات 
+                  <a data-aos="fade-up"  href="#" data-aos-delay="200" class="btn btn-sm btn-info float-left">ابدأ الآن</a></p>
+                </div>
+            </div>
+          </div>
+      </div>
+</div>
+      <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+    </div>
+  
+  </section><!-- End Hero Section -->
+<!--==========================================-->
+
+<!--==========================================-->
+  <main id="main">
+       <!-- ======= Services Section ======= -->
+       <section id="services" class="services section-bg">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-header">
+            <h2>خدمات الهيئة</h2>
+            <!-- <p>Voluptatem quibusdam ut ullam perferendis repellat non ut consequuntur est eveniet deleniti fignissimos eos quam</p> -->
+          </div>
+  
+          <div class="row gy-4">
+            
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i><img src="assets/img/icons/landPlot.svg"></i>
+                </div>
+                <h3>طرح الوحدات/ الأراضى الصناعية</h3>
+                <p>من خلال التقديم على الخريطة الاستثمارية
+                <a href="service-details.html" class="btn btn-sm btn-outline-light float-left">المزيد..<i class="bi bi-arrow-left"></i></a>
+              </p>
+            </div>
+            </div><!-- End Service Item -->
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i><img src="assets/img/icons/construct.svg"></i>
+                </div>
+                <h3>رخص البناء</h3>
+                <p>التصريح للبدء في إجراءات البناء على قطعة الأرض.
+                <a href="service-details.html" class="btn btn-sm btn-outline-light float-left">المزيد.. <i class="bi bi-arrow-left"></i></a>
+              </p>
+              </div>
+            </div><!-- End Service Item -->
+  
+  
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+              <div class="service-item  position-relative">
+                <div class="icon">
+                  <i><img src="assets/img/icons/licenseGrey.svg"></i>
+
+                </div>
+                <h3>رخص التشغيل</h3>
+                <p>منح التراخيص للمنشآت الصناعية (اخطار / مسبق) خلال 20 يوم عمل
+                <a href="service-details.html" class="btn btn-sm btn-outline-light float-left">المزيد.. <i class="bi bi-arrow-left"></i></a>
+              </p>
+            </div>
+            </div><!-- End Service Item -->
+  
+            <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i><img src="assets/img/icons/sglGrey.svg"></i>
+                </div>
+                <h3>السجل الصناعى</h3>
+                <p>الحصول على شهادة القيد بالسجل الصناعي للمنشأة الصناعية (أول مرة / تعديل فني) خلال 30 يوم من بدء الإنتاج.
+                <a href="service-details.html" class="btn btn-sm btn-outline-light float-left">المزيد.. <i class="bi bi-arrow-left"></i></a>
+              </p>
+            </div>
+            </div><!-- End Service Item -->
+          </div>
+        </div>
+      </section><!-- End Services Section -->
+         <!-- ======= Recent News Posts Section ======= -->
+    <section id="recent-blog-posts" class="recent-blog-posts">
+      <div class="container" data-aos="fade-up">   
+  <div class=" section-header">
+        <h2>أخبار تهمك</h2>
+        <!-- <p>In commodi voluptatem excepturi quaerat nihil error autem voluptate ut et officia consequuntu</p> -->
+      </div>
+
+      <div class="row gy-5">
+
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="post-item position-relative h-100">
+
+            <div class="post-img position-relative overflow-hidden">
+              <img src="assets/img/blog/2211.jpeg" class="img-fluid" alt="">
+              <span class="post-date">22 نوفمبر 2023</span>
+            </div>
+
+            <div class="post-content d-flex flex-column">
+
+              <h3 class="post-title">رئيس التنمية الصناعية تتفقد مجمع البحيرة الجديد للصناعات الصغيرة والمتوسطة</h3>
+              <hr>
+
+              <a href="blog-details.html" class="readmore stretched-link"><span>المزيد..</span><i class="bi bi-arrow-left"></i></a>
+
+            </div>
+
+          </div>
+        </div><!-- End post item -->
+
+        <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="post-item position-relative h-100">
+
+            <div class="post-img position-relative overflow-hidden">
+              <img src="assets/img/blog/2111.jpeg" class="img-fluid" alt="">
+              <span class="post-date">21 نوفمبر 2023</span>
+            </div>
+
+            <div class="post-content d-flex flex-column">
+
+              <h3 class="post-title">
+                
+                
+                وفقاً لتوجيهات وزير التجارة والصناعة: فرع جديد لهيئة التنمية الصناعية بمحافظة البحيرة
+                         </h3>
+              <hr>
+
+              <a href="blog-details.html" class="readmore stretched-link"><span>المزيد..</span><i class="bi bi-arrow-left"></i></a>
+
+            </div>
+
+          </div>
+        </div><!-- End post item -->
+
+        <div class="col-xl-4 col-md-6">
+          <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="post-img position-relative overflow-hidden">
+              <img src="assets/img/blog/2011.jpeg" class="img-fluid" alt="">
+              <span class="post-date">20 نوفمبر 2023</span>
+            </div>
+
+            <div class="post-content d-flex flex-column">
+
+              <h3 class="post-title">
+   
+استمرار العمل بالقرار ١٣٣/ ٢٠٢٣ للتيسير على المستثمرين
+ لاستكمال تنفيذ مشروعاتهم الصناعية </h3>
+
+              <hr>
+
+              <a href="blog-details.html" class="readmore stretched-link float-left"><span>المزيد..</span><i class="bi bi-arrow-left"></i></a>
+
+            </div>
+
+          </div>
+        </div><!-- End post item -->
+
+      </div>
+      <a data-aos="fade-up" data-aos-delay="200" href="blog-details.html" class="btn btn-get-started btn-outline-info float-left">المزيد من الأخبار</a>
+      </div>
+    </section>
+    <!-- End Recent Blog Posts Section -->
+      <!-- ======= Stats Counter Section ======= -->
+      <section id="stats-counter" class="stats-counter section-bg">
+        <div class="container">
+  
+          <div class="row gy-4">
+  
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <!-- <i class="bi bi-emoji-smile color-blue flex-shrink-0"></i> -->
+                <i><img src="assets/img/license.svg" /></i>
+                <div>
+                  <span data-purecounter-start="1000" data-purecounter-end="20510" data-purecounter-duration="1" class="purecounter"></span>
+                  <p>عدد الرخص الصادرة</p>
+                </div>
+              </div>
+            </div><!-- End Stats Item -->
+  
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <!-- <i class="bi bi-journal-richtext color-orange flex-shrink-0"></i> -->
+                <i><img src="assets/img/sgl.svg"></i>
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="3367" data-purecounter-duration="1" class="purecounter"></span>
+                  <p>عدد السجلات الصناعية الصادرة</p>
+                </div>
+              </div>
+            </div><!-- End Stats Item -->
+  
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <!-- <i class="bi bi-headset color-green flex-shrink-0"></i> -->
+                <i>
+                  <img src="assets/img/compounds.svg" />
+                </i>
+                <div>
+                  <span data-purecounter-start="0" data-purecounter-end="17" data-purecounter-duration="1" class="purecounter"></span>
+                  <p>عدد المجمعات الصناعية</p>
+                </div>
+              </div>
+            </div><!-- End Stats Item -->
+  
+            <div class="col-lg-3 col-md-6">
+              <div class="stats-item d-flex align-items-center w-100 h-100">
+                <!-- <i class="bi bi-people color-pink flex-shrink-0"></i> -->
+                <i>
+                  <img src="assets/img/cluster.svg">
+                </i>
+                <div>
+                  <span data-purecounter-start="500" data-purecounter-end="5046" data-purecounter-duration="1" class="purecounter"></span>
+                  <p>عدد الوحدات بالمجمعات الصناعية</p>
+                </div>
+              </div>
+            </div><!-- End Stats Item -->
+  
+          </div>
+  
+        </div>
+      </section><!-- End Stats Counter Section -->
+    <!-- ======= Constructions Section ======= -->
+    <section id="constructions" class="constructions">
+      <div class="container aos-init aos-animate " data-aos="fade-up">
+        <div class="section-header">
+          <!-- <h2>Constructions</h2> -->
+          <!-- <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p> -->
+        </div>
+        <div class="row gy-4 card-deck">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                  <img class="card-img-top" src="assets/img/construction/idc.JPG" alt="Card image">
+          </div> 
+          <div class="card-body card-img-overlay">
+                    <h4 class="card-title">شركـة التنميـة الصناعية</h4>
+                    <p>صـدر قرار رئيـس مجلس الوزراء رقـم 1128 لسنة 2017 بشأن الترخيص للهيئة بتأسيس شركة التنمية الصناعية ش.م.م.
+                       الشركة مقيدة بالهيئة العامة للاستثمار برأس مال 25 مليون جنيه مصرى،  
+                       وهى مملوكة بنسبة 100% للهيئة العامة للتنمية الصناعية.</p>
+                  </div>
+                </div>
+          </div><!-- End Card Item -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <img class="card-img-top" src="assets/img/construction/2100.JPG" alt="Card image">
+        </div> 
+        <div class="card-body card-img-overlay">
+                    <h4 class="card-title">لجنة تخصيص الأراضى الصناعية 2100</h4>
+                    <p>وهى لجنة مُشكلة بقرار مجلس الوزراء رقم 2100 لسنة 2021 ومختصة بتجميع ودراسة جميع طلبات المستثمرين الراغبين في الحصول على أراضى صناعية
+                      ووضع إجراءات لسرعة البت في الطلبات المقدمة للجنة من المستثمرين الراغبين في أراضى صناعية
+                      وسرعة إصدار تراخيص البناء والتشغيل النهائية خلال فترة</p>
+                  </div>
+                </div>
+          </div><!-- End Card Item -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <div class="row">
+                <div class="col-xl-5">
+                  <div class="card-bg" style="background-image: url(assets/img/hero-carousel/bayad.JPG);"></div>
+                </div>
+                <div class="col-xl-7 d-flex align-items-center">
+                  <div class="card-body">
+                    <h4 class="card-title">المجمعات الصناعية</h4>
+                    <p>يأتى المشروع فى اطار استراتيجية وزارة الصناعة والتجارة لتعزيز التنمية الصناعية من خلال انشاء مجمعات صناعية على مستوى الجمهورية
+                      بوحدات صناعية جاهزة للتشغيل بمساحات مختلفة تناسب مختلف نشاطات الصناعات الصغيرة
+                      وتسهيل سرعة البدء في النشاط من خلال تسليم المصانع</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Card Item -->
+        </div>
+
+      </div>
+    </section><!-- End Constructions Section -->
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up" data-bs-interval="5000" >
+        <div class="section-header">
+          <h2>قصص النجاح</h2>
+          <!-- <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti</p> -->
+        </div>
+        <!-- <div class="swiper swiper_thumbnail">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="assets/img/testimonials/Pegas.png"></div>
+              <div class="swiper-slide"><img src="assets/img/testimonials/lg.svg"></div>
+              <div class="swiper-slide"><img src="assets/img/testimonials/Samsung_Logo.svg.png"></div>
+          </div>
+      </div> -->
+      
+        <div class="slides-2 swiper" thumbs-swiper=".my-thumbs">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/Pegas.png" class="testimonial-img" alt="">
+                  <h3>بيجاس ايجيبت للأقمشة الغير منسوجة ش.م.م</h3>
+                  <h4>Pegas Nonwovens Egypt Llc</h4>
+                  <!-- <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div> -->
+                  <p>
+                    <!-- <i class="bi bi-quote quote-icon-left"></i> -->
+                    بيجاس شركة من جمهورية التشيك لإنتاج الخيوط الغير منسوجه و المصنوعه من البولي بروبلين و البولي ايثيلين المستخدم في صناعة الغزل و النسيج و التي قامت الهيئة بجذبها من خلال عرض فرص الانتاج و الطلب المحلي لمنتج الشركة مع الحوافز الصناعية و التجارية لإقامة مصنع داخل جمهورية مصر العربية.
+تم بناء المصنع و تشغيله في مدينة السادس من اكتوبر داخل مطور صناعي بالمدينة على مساحة 50 الف متر مربع و تشغيل حوالي 150 عامل بمختلف المستويات الادارية و الفنية بحجم استثمارات تقدر بحوالي 600 مليون جنية مصري.
+                    <!-- <i class="bi bi-quote quote-icon-right"></i> -->
+                  </p>
+                  <p>
+                    <a href="http://www.pegas.cz" target="_blank">http://www.pegas.cz</a>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/ulhuwa_logo.jpg" class="testimonial-img" alt="">
+                  <h3>ايل هوا ايجيبت للمنسوجات</h3>
+                  <h4>Ulhwa Corporation Korea</h4>
+                  <!-- <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div> -->
+                  <p>
+                    <!-- <i class="bi bi-quote quote-icon-left"></i> -->
+                    ايل هوا هي شركة من دولة كوريا الجنوبية من الشركات الرئدة في صناعة الاقمشه و الخيوط المستخدمة في صناعة الغزل و النسيبج، تم اتخاذ قرار الاستثمار في جمهورية مصر العربية بالتعاون مع الهيئة العامة للتنمية الصناعية و تحديد الموقع المناسب بناء على احتياجات الشركة و متطلباتها.
+                    تم انشاء المصنع في محافظة بني سويف على مساحة 20 الف متر مربع و تشغيل حوالي 300 موظف في مختلف المستويات الادارية و الفنية بتكلفة استثمارية تقدر بحوالي 60 مليون جنية مصري.                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                  <p><a href="http://www.ulhwa.com" target="_blank">http://www.ulhwa.com</a></p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/Samsung_Logo.svg.png" class="testimonial-img" alt="">
+                  <h3>سامسونج اليكترونكس ايجيبت</h3>
+                  <h4>SAMSUNG Egypt Electronics</h4>
+                  <!-- <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div> -->
+                  <p>
+                    اتخذت سامسونج الكورية قرار الاستثمار في مصر سنة 2011 بعد دراسة استمرت حوالي ثلاثة اعوام بمعاونة الهيئة العامة للتنمية الصناعية و محافظة بني سويف، و التي اقيم فيها المنصنع بمنطقة كوم ابو راضي الصناعية على مساحة 370 الف متر بتكلفة استثمارية تقدر
+                     بحوالي 4 مليار جنيه مصري و تشغيل 2000 عامل و مهندس و موظف اداري.الشركة اعتبرت مصر مركز لتصدير منتجاتها لسوق الشرق الاوسط و اوروبا و افريقيا و الامريكتين.                    <i class="bi bi-quote quote-icon-right"></i>
+                  </p>
+                  <p>
+                    <a href="http://www.samsung.com" target="_blank">http://www.samsung.com </a>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/lg.svg" class="testimonial-img" alt="">
+                  <h3>إل جى</h3>
+                  <h4>LG</h4>
+                  <!-- <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div> -->
+                  <p>
+                    <!-- <i class="bi bi-quote quote-icon-left"></i> -->
+                    هي شركة صناعية رائدة من كوريا الجنوبية قررت الاستثمار في مصر في قطاع الاجهزة الكهربائية المنزلية في منطقة العاشر من رمضان الصناعية على مساحة 100 الف متر مربع بتكلفة استثمارية تقدر بحوالي مليار و نصف المليار جنية و تشغيل 450 عامل و مهندس في مختلف المستويات الادارية و الفنية
+                    <!-- <i class="bi bi-quote quote-icon-right"></i> -->
+                  </p>
+                  <p>
+                    <a href="http://www.lg.com" target="_blank">http://www.lg.com</a>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/testimonials/imerys-logo.png" class="testimonial-img" alt="">
+                  <h3>IMERYS </h3>
+                  <!-- <h4>Entrepreneur</h4>
+                  <div class="stars">
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                  </div> -->
+                  <p>
+                    هي شركة فرنسية رائدة في مجال صناعة التلك لتحضيرة لمختلف الصناعات اهمها صناعة السيراميك الشركة تدير مناجم ومنشآت معالجة لانتاج التلك في أوروبا وأمريكا الشمالية وآسيا وأستراليا و افريقيا، تم اتخاذ قرار الاستثمار بدعم من الهيئة العامة للتنمية الصناعية و هيئة الاستثمار و المناطق الحرة، ليتم انشاء مصنع في منطقة العاشر من رمضان على مساحة حوالي 16 الف متر بتكلفة استثمارية تقدر بحوالي 30 مليون جنية و تشغيل ما يقرب من حوالي 500 عامل و موظف في مختلف المستويات الادارية و الفنية.
+                  </p>
+                  <p>
+                  <a href="https://www.imerys.com/" target="_blank" >https://www.imerys.com</a></p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+    <div class="swiper-slide">
+      <div class="testimonial-wrap">
+        <div class="testimonial-item">
+          <img src="assets/img/testimonials/Vivo_logo_2019.svg.png" class="testimonial-img" alt="">
+          <h3>VIVO </h3>
+          <!-- <h4>Entrepreneur</h4>
+          <div class="stars">
+            <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+          </div> -->
+          <p>
+            قررت شركة فيفو الصينية لصناعة الهواتف الذكية للإستثمار في مصر 2022 و انشاء اول مصنع في الشرق الاوسط داخل جمهورية مصر العربية بناء على عرض الهيئة العامة للتنمية الصناعية احتياج الصناعة لمنتجين دوليين و توطين صناعات تكنولوجية داخل مصر وتوفير سلاسل الامداد محليا، بتكلفة استثمارية تقدر بجوالي 150 مليون جنيه مصري و تشغيل 600 عامل و مهندس على مساحة اجمالية حوالي 11 الف متر بمنطة العاشر من رمضان
+          </p><p>
+          <a href="http://www.vivo.com" target="_blank" >http://www.vivo.com</a></p>
+        </div>
+      </div>
+    </div><!-- End testimonial item -->
+
+<div class="swiper-slide">
+  <div class="testimonial-wrap">
+    <div class="testimonial-item">
+      <img src="assets/img/testimonials/jvkorea.png" class="testimonial-img" alt="">
+      <h3>JV Korea </h3>
+      <!-- <h4>JV Korea</h4>
+      <div class="stars">
+        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+      </div> -->
+      <p>
+        شركة جي في هي احدى شركات سلاسل الامداد لمنتجات شركة سامسونج مصر و تم الاستثمار خلال عام 2022 داخل المجمعات الصناعية داخل محافظة بني سويف بعد عرض منظومة المجمعات الصناعية وخدماتها بقيمة استثمارية تقدر بحوالي 50 مليون جنية لتشغيل حوالي 100 وظيفة مباشرة و غير مباشرة.  
+      </p>
+      <p>
+      <a href="http://jvfamily.com" target="_blank" >http://jvfamily.com</a></p>
+    </div>
+  </div>
+</div><!-- End testimonial item -->
+</div>
+<div class="swiper-pagination"></div>
+</div>
+<a href="about.html" data-aos-delay="200" class="btn btn-outline-info float-left aos-init aos-animate" >اكتشف المزيد&nbsp;<i class="fa-solid fa-circle-chevron-left"></i></a>
+</div>
+</section><!-- End Testimonials Section -->
+
+  </main><!-- End #main -->
+ 

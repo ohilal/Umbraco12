@@ -1,0 +1,269 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@using ContentModels = Umbraco.Cms.Web.Common.PublishedModels;
+@{
+	Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>الهيئة العامة للتنمية الصناعية - الصفحة الرئيسية</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="/images/favicon.png" rel="icon"> 
+  <!--<link href="assets/img/favicon.ico" rel="icon">-->
+  <link href="/images/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+ -->
+  <!-- Vendor CSS Files -->
+  <!--<link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+ 
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <!-- <link href="assets/css/style.css" rel= "stylesheet"> -->
+  
+  <link href="/css/main.css" rel="stylesheet">
+ <link href="/css/bootstrap.css" rel="stylesheet">
+ <!-- js-->
+ <script src="/js/jquery-3.7.1.js"></script>
+ <script src="/js/popper.js"></script>
+ <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script> -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-right">
+    <div class="container-fluid  d-flex align-items-center ">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="/images/logoEagle.png" alt="IDA"> 
+       <!-- <h1>UpConstruction<span>.</span></h1>-->
+      </a>
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      <nav id="navbar" class="navbar">
+        <ul> 
+          <li class="dropdown"><a href="#"><span>لماذا مصر</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>  
+              <li><a href="#">الموقع</a></li>
+              <li><a href="#">إدارة العملية الصناعية</a></li>
+              <li><a href="#">التشريعات والقوانين الصناعية</a></li>
+             <li><a href="#"> الاتفاقيات الدولية </a></li>
+              <li><a href="#">  القطاعات الصناعية</a></li>
+              <li><a href="#">البنية الأساسية واللوجستيات  </a></li>
+              <li><a href="#">الثروات المعدنية  </a></li>
+              <li><a href="#">  السكان والقوى العاملة</a></li>
+              <li><a href="#">  مناطق مصر (خريطة)</a></li>
+              <li><a href="#">  قصص النجاح</a></li>  
+            </ul>
+          </li>
+           <li class="dropdown"><a href="#"><span>عن الهيئة</span><i class="bi bi-chevron-down dropdown-indicator"></i></a></a>
+            <ul>  
+              <li><a href="#">الرؤية والرسالة</a></li>
+              <li><a href="#"> كلمة رئيس مجلس الإدارة </a></li>
+              <li><a href="#">قوانين ولوائح  </a></li>
+             <li><a href="#">  مجلس إدارة الهيئة </a></li>
+              <li><a href="#">   إنجازات الهيئة</a></li>
+              <li><a href="#">  فروع الهيئة  </a></li>
+              <li><a href="#">شركة التنمية الصناعية   </a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span> خدمات الهيئة</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>  
+              <li><a href="#">خدمات الأراضى</a></li>
+              <li><a href="#">الخدمات الهندسية(رخص البناء وملحقاتها)</a></li>
+              <li><a href="#">خدمات رخص التشغيل</a></li>
+             <li><a href="#"> خدمات السجل الصناعى والموافقات</a></li>
+              <li><a href="#">   خدمات التصنيع المحلى</a></li>
+              <li><a href="#">خدمات الشئون الفنية</a></li>
+              <li><a href="#"> خدمات حماية البيئة  </a></li>
+              <li><a href="#">  مكاتب الاعتماد</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span> الاستثمار الصناعى </span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>  
+              <li><a href="#">المطور الصناعى </a></li>
+              <li><a href="#"> طرح الوحدات/ الأراضى الصناعية</a></li>
+              <li><a href="#">المجمعات الصناعية</a></li>
+             <li><a href="#">دليل تأسيس الشركات</a></li>
+              <li><a href="#">المناطق الصناعية المتخصصة</a></li>
+              <li><a href="#">مشروع تنمية الصعيد</a></li>
+            </ul>
+            </li>
+          <li><a href="projects.html">الخريطة الاستثمارية</a></li>
+          <li class="dropdown"><a href="#"><span> المركز الإعلامى  </span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>  
+              <li><a href="#"> الأخبار </a></li>
+              <li><a href="#">أحداث/ لقاءات إعلامية وصحفية</a></li>
+              <li><a href="#"> معرض الصور</a></li>
+             <li><a href="#">  معرض الفيديو</a></li>
+              <li><a href="#">مبادرات هامة</a></li> 
+            </ul>
+            </li>
+            <li class="dropdown"><a href="#"><span> تواصل معنا  </span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+          <li><a href="blog.html">اتصل بنا </a></li>
+          <li><a href="faq.html"> الأسئلة الشائعة</a></li>
+          <li><a href="faq.html"> الشكاوى </a></li>
+          <li><a href="faq.html"> مواقع هامة </a></li>
+        </ul>
+        </li>
+        <li class="nav-item">
+          <div class="d-flex flex-column phone">
+             <div class="d-flex align-items-center">
+                <p class="my-0 border-end d-flex flex-column pl-3 text-center ">مركز النداء الآلي
+                   <br>
+                   للمستثمرين
+                </p>
+                <p class="my-0 pl-3 phone-number" dir="ltr">
+                   <i class="fa fa-phone"></i>19780
+                </p>
+             </div>
+          </div>
+       </li>
+        </ul>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+ 
+
+<!--==========================================-->
+  <main id="main">
+   @RenderBody()   
+      
+      
+</main>
+
+
+ <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="footer-content position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-info">
+              <h3>الهيئة العامة للتنمية الصناعية</h3>
+              <p>
+                42 محور السلام,التجمع الخامس
+               <br> القاهرة الجديدة,القاهرة 
+                <br><br>
+                <strong>اتص بنا:</strong> 19780<br>
+                <strong>Email:</strong> info@ida.gov.eg<br>
+              </p>
+              <div class="social-links d-flex mt-3"> 
+                <a href="https://twitter.com/IDA_EGYPT" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-twitter"></i></a>
+                <a href="https://www.facebook.com/IDA.Egypt/" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/ida_egypt/" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-instagram"></i></a> 
+                <a href="https://www.linkedin.com/company/the-industrial-development-authority/" target="_blank" class="d-flex align-items-center justify-content-center"><i class="bi bi-linkedin"></i></a>
+                <a  href="http://web.whatsapp.com" target="_blank" class="d-flex align-items-center justify-content-center">
+                  <i class="bi bi-whatsapp"></i>
+               </a>
+               <a  href="https://www.youtube.com/channel/UCMwe_iDxJ9ArQ_BbrcMib0Q" target="_blank" class="d-flex align-items-center justify-content-center">
+                <i class="bi bi-youtube"></i>
+             </a>
+              </div>
+            </div>
+          </div><!-- End footer info column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>عن الهيئة</h4>
+            <ul>
+              <li><a href="#"> قوانين ولوائح</a></li>
+               <li><a href="#">  مجلس إدارة الهيئة</a></li>
+              <li><a href="#">إنجازات الهيئة</a></li>
+              <li><a href="#">فروع الهيئة</a></li>
+              
+              <li><a href="#">شركة التنمية الصناعية</a></li>
+            
+            </ul>
+          </div><!-- End footer links column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>خدمات الهيئة</h4>
+            <ul>
+              <li><a href="#"> خدمات الأراضى</a></li>
+              <li><a href="#">الخدمات لهندسية</a></li>
+              <li><a href="#"> خدمات رخص التشغيل</a></li>
+              <li><a href="#">خدمات السجل الصناعى</a></li>
+              <li><a href="#">خدمات التصنيع المحلى </a></li>
+            </ul>
+          </div><!-- End footer links column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4> الاستثمار الصناعى</h4>
+            <ul>
+              <li><a href="#">المطور الصناعى</a></li>
+              <li><a href="#"> طرح الوحدات الصناعية</a></li>
+              <li><a href="#"> طرح الأراضى الصناعية</a></li>
+              <li><a href="#">المجمعات الصناعية</a></li>
+              <li><a href="#">  دليل تأسيس الشركات</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>المركز الإعلامى</h4>
+            <ul>
+              <li><a href="#">الأخبار</a></li>
+              <li><a href="#">معرض الصور</a></li>
+              <li><a href="#">لقاءات صحفية</a></li>
+              <li><a href="#">مبادرات هامة</a></li>
+              <li><a href="#">اتصل بنا</a></li>
+            </ul>
+          </div><!-- End footer links column-->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal text-center position-relative">
+      <div class="container">
+        <div class="copyright">
+         
+            الهيئة العامة للتنمية الصناعية 
+           <script>document.write(new Date().getFullYear())</script>
+        </div>
+        <!-- <div class="credits">
+         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div> -->
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+  <!-- Vendor JS Files -->
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="46.496216"
+   height="45"
+   viewBox="0 0 46.496216 45"
+   sodipodi:docname="Set of Industrial icons vector 02.eps"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
+  <g
+     id="g1"
+     inkscape:groupmode="layer"
+     inkscape:label="1"
+     transform="translate(-1247.1849,-768.13769)">
+    <g
+       id="group-R5">
+      <g
+         id="g4"
+         transform="matrix(0.08789061,0,0,0.08789061,1247.1849,768.1377)"
+         style="fill:#446771;fill-opacity:1">
+        <g
+           id="g2"
+           style="fill:#446771;fill-opacity:1">&#10;	<polygon
+   class="st0"
+   points="250.5,0.3 250.5,128.3 378.5,128.3 "
+   id="polygon1-6"
+   style="fill:#446771;fill-opacity:1" />
+&#10;</g>
+        <g
+           id="g3"
+           style="fill:#446771;fill-opacity:1">&#10;	<path
+   class="st0"
+   d="m 349.3,488.8 c -4.2,3 -9.8,3.3 -14.2,0.5 -6,-3.9 -11.7,-8.2 -17,-12.9 l -3.9,-3.5 c -5.1,-4.8 -9.8,-10 -14.2,-15.6 -3.2,-4 -3.4,-9.7 -0.8,-14.2 l 16.4,-28.3 c -2,-4.2 -3.7,-8.7 -5.2,-13.2 -1.4,-4.6 -2.6,-9.2 -3.4,-13.8 l -29.7,-13.7 c -4.7,-2.2 -7.8,-6.8 -7.5,-12 0.4,-7.1 1.2,-14.1 2.6,-20.9 l 1.1,-5.1 c 1.7,-7 3.9,-13.8 6.5,-20.4 1.9,-4.8 6.7,-7.8 11.9,-7.8 l 32.6,0.1 c 5.4,-7.8 11.8,-14.8 19.1,-21 l -3,-32.5 c -0.5,-5.2 2,-10.2 6.7,-12.6 7,-3.6 14.3,-6.6 22,-9 4.8,-1.5 9.6,-2.8 14.4,-3.8 V 160 H 256 c -17.7,0 -32,-14.3 -32,-32 V 0 H 64 C 28.7,0 0,28.7 0,64 v 384 c 0,35.3 28.7,64 64,64 h 320 v -39.5 c -2.7,-0.8 -5.4,-1.6 -8.1,-2.6 z"
+   id="path1-7"
+   style="fill:#446771;fill-opacity:1" />
+&#10;</g>
+        <path
+           class="st0"
+           d="m 504,295.7 c 2.7,3.3 2.8,8 0.7,11.7 l -13.6,23.4 c 1.6,3.5 3.1,7.2 4.3,11 1.2,3.8 2.1,7.6 2.8,11.4 l 24.6,11.3 c 3.9,1.8 6.5,5.7 6.2,10 -0.3,5.9 -1,11.7 -2.1,17.3 L 526,396 c -1.4,5.8 -3.2,11.4 -5.4,16.9 -1.7,4 -5.6,6.4 -9.9,6.4 l -27,-0.1 c -4.5,6.4 -10.2,12.4 -15.8,17.4 l 2.5,26.9 c 0.4,4.2 -1.8,8 -5.5,10.4 -5.8,2.9 -11.9,5.5 -18.7,7.6 -6,1.9 -12.4,3.4 -18.8,4.3 -4.4,0.2 -8.4,-1.6 -10.5,-5.3 l -13.5,-23.4 c -7.9,-0.7 -15.6,-2.4 -23,-5.1 l -22.1,15.6 c -3.5,2.5 -8.2,2.7 -11.8,0.4 -5,-3.2 -9.7,-6.8 -14.1,-10.7 l -3.2,-2.9 c -4.2,-4 -8.1,-8.3 -11.7,-12.9 -2.6,-3.3 -2.8,-8 -0.6,-11.7 l 13.6,-23.4 c -1.6,-3.5 -3.1,-7.2 -4.3,-11 -1.2,-3.8 -2.1,-7.6 -2.8,-11.4 l -24.6,-11.3 c -3.9,-1.8 -6.4,-5.7 -6.2,-10 0.3,-5.9 1,-11.7 2.2,-17.3 l 0.9,-4.2 c 1.4,-5.8 3.2,-11.4 5.4,-16.9 1.6,-4 5.6,-6.4 9.9,-6.4 l 27,0.1 c 4.5,-6.4 9.8,-12.3 15.8,-17.4 l -2.5,-26.9 c -0.4,-4.3 1.7,-8.4 5.5,-10.4 5.8,-2.9 11.9,-5.5 18.3,-7.5 6.4,-2 12.8,-3.5 19.2,-4.4 4.3,-0.6 8.4,1.6 10.5,5.3 l 13.5,23.4 c 7.5,0.8 15.6,2.4 23,5.1 l 22.1,-15.6 c 3.5,-2.5 8.1,-2.7 11.8,-0.4 4.9,3.2 9.7,6.8 14.1,10.7 l 3.2,2.9 c 4,4 7.9,8.3 11.5,12.9 z m -82.1,108.2 c 19.5,-6.2 30.3,-27 24,-46.8 -6,-19.1 -27,-30.3 -46.4,-24.1 -19.5,6.2 -30.2,27.3 -24.1,46.4 6.2,19.9 27,30.7 46.5,24.5 z"
+           id="path2-4"
+           style="fill:#446771;fill-opacity:1" />
+        <line
+           class="st1"
+           x1="324"
+           y1="201.5"
+           x2="25"
+           y2="201.5"
+           id="line2"
+           style="fill:#446771;fill-opacity:1;stroke:#ffffff;stroke-width:16;stroke-linecap:round;stroke-miterlimit:10" />
+        <line
+           class="st1"
+           x1="324"
+           y1="237.5"
+           x2="25"
+           y2="237.5"
+           id="line3"
+           style="fill:#446771;fill-opacity:1;stroke:#ffffff;stroke-width:16;stroke-linecap:round;stroke-miterlimit:10" />
+        <line
+           class="st1"
+           x1="324"
+           y1="280.5"
+           x2="25"
+           y2="280.5"
+           id="line4"
+           style="fill:#446771;fill-opacity:1;stroke:#ffffff;stroke-width:16;stroke-linecap:round;stroke-miterlimit:10" />
+        <line
+           class="st2"
+           x1="253"
+           y1="323.5"
+           x2="25"
+           y2="323.5"
+           id="line5"
+           style="fill:#446771;fill-opacity:1;stroke:#ffffff;stroke-width:12.2007;stroke-linecap:round;stroke-miterlimit:10" />
+      </g>
+    </g>
+  </g>
+</svg>

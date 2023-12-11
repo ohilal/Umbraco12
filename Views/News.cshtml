@@ -1,0 +1,59 @@
+﻿@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+	Layout = "Master.cshtml";
+}
+
+<!-- ======= Breadcrumbs ======= -->
+
+    <div class="breadcrumbs d-flex align-items-center" style="background-image: url('@Model.Value("bannerImage.Url()")');">
+    <img src=@Model.Value("bannerImage") >
+      <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
+
+        <h2>@Model.Value("subBannerTitle")</h2>
+     @await Html.PartialAsync("Breadcrumbs")
+      </div>
+    </div><!-- End Breadcrumbs -->
+    <!-- ======= Blog Section ======= -->
+    <section id="blog" class="blog">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+@{
+	var selection = Umbraco.Content(Guid.Parse("669ef204-150b-42a6-afb9-a5808abdf83c"))
+    .ChildrenOfType("newsItem")
+    .Where(x => x.IsVisible())
+    .OrderByDescending(x => x.CreateDate);
+}
+        <div class="row gy-4 posts-list">
+          	@foreach (var item in selection)
+	{
+	   var thumbnail= item.Value<IPublishedContent>("thumbnailImage");
+  <div class="col-xl-4 col-md-6">
+            <div class="post-item position-relative h-100">
+              <div class="post-img position-relative overflow-hidden">
+                <img src="@thumbnail.Url()" class="img-fluid" alt="">
+                <span class="post-date">@item.Value("newsDate")</span>
+              </div>
+              <div class="post-content d-flex flex-column">
+
+                <h3 class="post-title">@item.Value("title")</h3>
+  <p> @item.Value("introText")
+                </p>
+
+                <hr>
+                <a href="@item.Url()" class="readmore stretched-link float-left"><span>المزيد..</span><i class="bi bi-arrow-left"></i></a>
+              </div>
+
+            </div>
+          </div><!-- End post list item -->
+}
+               </div><!-- End blog posts list -->
+        <div class="blog-pagination">
+          <ul class="justify-content-center">
+            <li><a href="#">1</a></li>
+            <li class="active"><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+          </ul>
+        </div><!-- End blog pagination -->
+
+      </div>
+    </section><!-- End Blog Section -->
